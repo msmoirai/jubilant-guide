@@ -1,0 +1,17 @@
+
+public class TypesAndVariables {
+	public static void main(String[] args) {
+		int myVariable; //declaring a variable called myVariable that stores the type int, or integers
+		myVariable = 5; //initializing myVariable to the value 5
+		//can't view as mathematical - this is assigning value
+		
+		int myVar2=7; //declare and initialize both steps on same line
+		//int is only intiger, not fractional value
+		
+		double x = 2.5;  //double uses fractional value
+		
+		System.out.println(x);
+		
+		
+	}
+}

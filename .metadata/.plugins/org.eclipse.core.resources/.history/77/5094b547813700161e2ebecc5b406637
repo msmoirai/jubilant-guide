@@ -1,0 +1,17 @@
+
+public class Loops {
+	public static void main(String[] args) {
+	
+		whileLoop();
+		}
+
+	
+	static void whileLoop() {
+		//while loop
+		int counter = 9;
+		while(counter < 10) {
+			counter = counter +1;
+			System.out.println(counter);
+		}
+	}
+}

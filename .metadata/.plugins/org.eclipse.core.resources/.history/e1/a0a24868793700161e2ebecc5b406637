@@ -1,0 +1,25 @@
+
+public class Methods {
+	public static void main(String[] args) {  //main method
+		sayHelloWorld(); //call method
+		sayHelloTo("Charlie");
+		sayHelloTo("my Little friend");
+		int x = returnFive();
+		
+		System.out.println(x);
+		
+		
+	}
+	
+	static int returnFive() {
+		return 5;
+	}
+	
+	static void sayHelloTo(String name) {
+		System.out.println("Hello, " + name);
+	}
+	
+	static void sayHelloWorld() { //skeleton of method
+		System.out.println("Hello, world!"); //what the method does
+	}
+}

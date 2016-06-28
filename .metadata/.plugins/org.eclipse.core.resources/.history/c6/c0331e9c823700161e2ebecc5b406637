@@ -1,0 +1,12 @@
+import javax.swing.JFrame;
+
+public class Objects {
+	public static void main(String[] args) {
+		
+		
+	JFrame window = new JFrame();
+	
+	window.setVisible(true);
+	}
+
+}

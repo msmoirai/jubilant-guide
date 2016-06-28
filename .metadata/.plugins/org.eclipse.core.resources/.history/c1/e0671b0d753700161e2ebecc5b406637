@@ -1,0 +1,14 @@
+
+public class TypesAndVariables {
+	public static void main(String[] args) {
+		int myVariable; //declaring a variable called myVariable that stores the type int, or integers
+		myVariable = 5; //initializing myVariable to the value 5
+		//can't view as mathematical - this is assigning value
+		
+		int myVar2=7; //both steps on same line
+		
+		System.out.println(myVariable = myVar2);
+		
+		
+	}
+}

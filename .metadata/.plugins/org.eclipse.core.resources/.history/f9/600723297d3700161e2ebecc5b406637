@@ -1,0 +1,15 @@
+
+public class Conditionals {
+	public static void main(String[] args) {
+		
+		// if (some expression that evalute to true)
+		// 	do something
+		
+		if(true) {
+			System.out.println("Hello");
+		}
+		
+		
+		System.out.println("Goodbye");
+	}
+}
