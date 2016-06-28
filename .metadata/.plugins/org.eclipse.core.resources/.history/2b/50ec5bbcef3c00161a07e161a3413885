@@ -1,0 +1,9 @@
+
+public class Person {
+	String name;  //instance variable - one for each object created
+	static int age;  //static becomes class variable - one for each class
+	
+	public Person() {
+		System.out.println("Person created");
+	}
+}

@@ -1,0 +1,31 @@
+
+public class Person {
+	String name;  //instance variable - one for each object created
+	static int age;  //static becomes class variable - one for each class
+	
+	public Person(String name) {
+		this.name = name; // this. refers to instance of class  this.name now refers to instance var name
+		System.out.println("Person created");
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public static int getAge() {
+		return age;
+	}
+
+	public static void setAge(int age) {
+		Person.age = age;
+	}
+
+	public void sayHelloTo(Person person) {
+		System.out.println(getName() + " said hello to " person.getName());
+		
+	}
+}

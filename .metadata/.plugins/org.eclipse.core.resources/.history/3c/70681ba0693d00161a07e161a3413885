@@ -1,0 +1,13 @@
+package overriding;
+
+import javax.swing.JFrame;
+
+public class Drawing extends JFrame {
+	public static void main(String[] args) {
+		new Drawing();
+	}
+	public Drawing() {
+		setSize(500, 500);
+		setVisible(true);
+	}
+}

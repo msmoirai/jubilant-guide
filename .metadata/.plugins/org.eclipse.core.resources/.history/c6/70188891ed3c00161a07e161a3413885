@@ -1,0 +1,19 @@
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Objects {
+	public static void main(String[] args) {
+		
+	// create our window	
+	JFrame window = new JFrame();
+	window.setSize(800, 600);
+	window.setTitle("My Window");
+	window.setVisible(true);
+		
+	JLabel label = new JLabel();
+	label.setText("My Label");
+	
+	window.add(label);
+	}
+
+}
